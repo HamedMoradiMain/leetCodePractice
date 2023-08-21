@@ -33,7 +33,7 @@ All the words in sentences[i] are separated by a single space."""
 class Solution:
     def mostWordsFound(self, sentences: list[str]) -> int:
         lengthOfSentences = [int(len(x.split(" "))) for x in sentences]
-        print(max(lengthOfSentences))
+        return max(lengthOfSentences)
         
 if __name__ == "__main__":
     sol = Solution()
