@@ -25,6 +25,6 @@ Explanation: The array ans is formed as follows:
 class Solution:
     def getConcatenation(self, nums: list[int]) -> list[int]:
         n = nums * 2
-        print(n)
+        return n
 sol = Solution()
 sol.getConcatenation([1,2,1]) 
