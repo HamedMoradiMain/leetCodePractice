@@ -35,20 +35,9 @@ s is a balanced string.
 """
 class Solution:
     def balancedStringSplit(self, s: str) -> int:
-        s = [x for x in s[0:len(s)]]
-
-        #pattren = 0
-        #item1 = len(s.split("RRLL"))
-        #item2 = len(s.split("LR"))
-        #item3 = len(s.split("RL"))
-        #print(item1)#,"***",item2,"***",item3)
-        """if item1 == item2:
-            return item1
-        if item1 < item2:
-            if item2/item2 == 1:
-                return item2
-            else:
-                return item2"""
+        res = []
+        count = 0
+        
 if __name__ == "__main__":
     sol = Solution()
     print(sol.balancedStringSplit("RLRRLLRLRL"))
