@@ -1,0 +1,24 @@
+if len(prices) == 2 and prices.index(max(prices)) > prices.index(min(prices)):
+            return int(max(prices) - min(prices))
+        else:
+            if max(prices) == prices[0]:
+                prices.remove(max(prices))
+                if min(prices) != prices[-1]:
+                    return int(max(prices) - min(prices))
+            if  max(prices) != prices[0] and :
+                
+
+        '''if len(prices) > 2:
+            if min(prices) != prices[-1] and max(prices) !=prices[-1]:
+                if prices.index(max(prices)) > prices.index(min(prices)):
+                    prices.remove(max(prices))
+                    return max(prices) - min(prices)
+                else:
+                    return max(prices) - min(prices)       
+            else:
+                return 0
+        else:
+            if prices.index(max(prices)) > prices.index(min(prices)):
+                return max(prices) - min(prices)
+            else:
+                return 0'''
